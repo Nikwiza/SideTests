@@ -6,7 +6,7 @@ for(var i = 0; i < n; i++){
     elements[i].onclick = 
         function()
         {
-         console.log("This element is  #" + i);
+         console.log("This element is  #" + (i+1));
         };
     })(i);
 }
@@ -17,6 +17,6 @@ for(var i = 0; i < n; i++){
 // Array.from(elements).forEach(element => {
 //     let i = Array.from(elements).indexOf(element);
 //     element.onclick = function(){
-//         console.log("This element is  #" + i);
+//         console.log("This element is  #" + (i+1));
 //     }
 // });
